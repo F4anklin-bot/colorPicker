@@ -13,7 +13,7 @@ export default function ColorPicker() {
         <div className="color-display" style={{backgroundColor : color}}>
             <p style={{backgroundColor : color}}>Selected Color: {color}</p>
         </div>
-        <label>Select a color:</label>
+        <label>Pick a color:</label>
         <input type="color" value={color} onChange={handleColorChange}/>
-    </div>);
+    </div>)
 }
